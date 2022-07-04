@@ -22,7 +22,8 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="teacher_dashboard" element={<TeacherDashboard setIsDashboardOpen={setIsDashboardOpen} />} />
           <Route path="teacher_dashboard/profile/:id" element={<ProfilePage />} />
-          <Route path="/project_library" element={<ProjectLibrary />} />
+          <Route path="teacher_dashboard/project_library" element={<ProjectLibrary />} />
+
         </Routes>
       </main>
       <Footer isDashboardOpen={isDashboardOpen} />

@@ -237,6 +237,72 @@ p {
   margin: auto;
 }
 
+.project_page_layout {
+  width: 70%;
+  margin: 100px auto;
+  color: #717171;
+}
+
+.project_page_layout2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.project_title {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.project_subtitle {
+  font-size: 25px;
+  color: #717171;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+  cursor: pointer;
+}
+
+.button-back-to-top {
+  font-family: "Dosis", sans-serif;
+  background-color: #daa000;
+  border: none;
+  width: 170px;
+  border-radius: 8px;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 0 60px 0 0;
+}
+
+.button-back-to-dashboard {
+  font-family: "Dosis", sans-serif;
+  background-color: #00c2ff;
+  border: none;
+  width: 170px;
+  border-radius: 8px;
+  height: 35px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
 .hero-img {
   width: 100%;
 }

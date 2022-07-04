@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "../../styles/template/template.css";
 import { Modal } from "./Modal";
 import { Link } from "react-router-dom";
+import star from "../../images/star.png";
+import star2 from "../../images/star2.png";
 
 export const Header = ({ isDashboardOpen }) => {
 
@@ -24,9 +26,9 @@ export const Header = ({ isDashboardOpen }) => {
                 >
                     {
                         isDashboardOpen ?
-                            <img className="logo" src="images/templates/star2.png" />
+                            <img className="logo" src={star2} />
                             :
-                            <img className="logo" src="images/templates/star.png" />
+                            <img className="logo" src={star} />
                     }
                 </Link>
                 <div className="nav">

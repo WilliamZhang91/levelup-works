@@ -15,7 +15,7 @@ export const useStudentProfiles = () => {
             .catch(err => {
                 console.log(err);
                 setErrorMessage("Unable to retrieve student profiles");
-            })
+            });
     };
 
     return { studentProfiles, errorMessage, fetchStudentProfiles }
@@ -32,10 +32,10 @@ export const useStudentProfile = () => {
                 setStudentProfile(res)
             })
             .catch(err => {
-                console.log(err)
-            })
-    }
+                console.log(err);
+            });
+    };
 
     return { studentProfile, fetchStudentProfile }
 
-}
+};
